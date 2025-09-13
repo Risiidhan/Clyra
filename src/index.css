@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+
+@theme {
+  --color-primary: #f97316; /* Vibrant orange accent */
+  --color-dark: #111827; /* Dark text */
+  --color-light: #f9fafb; /* Page background */
+  --color-muted: #6b7280; /* Secondary text */
+}
+
+
+body {
+  @apply bg-[var(--color-light)] text-[var(--color-dark)] font-sans;
+}
